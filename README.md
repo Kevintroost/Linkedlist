@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Linkedlist, hastable & binary tree met unit test oefening</p>
+<p align="left">Linkedlist met unit test oefening</p>
 
 ###
 
