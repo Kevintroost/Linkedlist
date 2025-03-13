@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<!-- Ensure this is a library, not an executable -->
+		<TargetFramework>net8.0</TargetFramework>
+		<!-- Use the appropriate .NET version -->
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- NUnit framework -->
+		<PackageReference Include="NUnit" Version="3.13.3" />
+		<!-- NUnit Test Adapter (allows running tests in Visual Studio) -->
+		<PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+		<!-- Microsoft Test SDK (required for running tests) -->
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+		<!-- FluentAssertions (for better assertions in tests) -->
+		<PackageReference Include="FluentAssertions" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\LinkedList\LinkedList.csproj" />
+	</ItemGroup>
+
+</Project>
