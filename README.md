@@ -1,4 +1,4 @@
-<h1 align="left">Datastructeren</h1>
+<h1 align="left">Linkedlist</h1>
 
 ###
 
